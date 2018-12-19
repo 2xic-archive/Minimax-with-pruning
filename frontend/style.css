@@ -1,0 +1,28 @@
+	
+h1{
+	text-align: center;
+	font-family: Arial;
+}
+
+.center{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -40%);
+	transform: translate(-50%, -40%);
+
+}
+
+#tile{
+	min-width: 50px;
+	max-height: 50px;
+	height: 50px;
+	border:1px solid #d3d3d3;
+	padding: 5px;
+}
+
+#boardRow{
+	display: flex;
+	justify-content:space-around;
+	list-style-type:none;
+}
